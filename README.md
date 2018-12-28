@@ -1,5 +1,4 @@
 # Solution
-Git repo: https://git.cs.bham.ac.uk/axk942/Assessed2.git
 
 #### Word.java
 To make checking where complete words exist in my tree and the popularity of these objects, I store a word object in each dictionary tree which simply stores the full word which was inserted and potentially it's popularity. The word object implements the comparator interface so that I can sort a collection of words based on their popularity later based on their popularity. The complete word and popularity values are set to empty optionals initially to avoid null pointers.
